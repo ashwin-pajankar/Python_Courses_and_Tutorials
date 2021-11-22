@@ -1,0 +1,32 @@
+https://www.python.org/
+https://thonny.org/
+
+python3 -V
+
+
+# Raspberry Pi OS
+
+sudo apt install python3-pip -y
+sudo apt install idle3 -y
+sudo apt install spyder -y
+pip3 install thonny
+
+# Ubuntu
+
+sudo apt install -y python3
+sudo apt install python3-pip -y
+sudo apt install idle3 -y
+sudo apt install spyder -y
+pip3 install thonny
+
+# Debian
+
+sudo apt install -y python3-pip
+sudo apt install -y idle
+sudo apt install -y thonny
+sudo apt install -y spyder
+
+# FreeBSD
+
+sudo pkg install -y python3
+sudo pkg install -y py38-pip
