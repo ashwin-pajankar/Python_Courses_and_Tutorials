@@ -1,0 +1,22 @@
+https://jupyter.org/
+https://ipython.org/
+
+# On all the platforms, the commands to install are as follows,
+
+pip3 install ipython
+pip3 install jupyter
+pip3 install notebook
+pip3 install jupyterlab
+
+# In windows Add the following directory entry to PATH
+C:\Users\Ashwin\AppData\Roaming\Python\Python310\Scripts
+
+# On Debian and derivatives, following extra steps are needed
+sudo pip3 install --upgrade nbconvert
+sudo pip3 install --upgrade "ipython[all]"
+Add the following line to the end in ~/.bashrc
+export PATH=$PATH:/home/pi/.local/bin
+
+# Launching IPython and Jupyter (Notebook/Lab)
+jupyter notebook
+jupyter lab
