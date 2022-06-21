@@ -30,3 +30,7 @@ sudo apt install -y spyder
 
 sudo pkg install -y python3
 sudo pkg install -y py38-pip
+sudo pip install idle
+sudo pip install tk
+sudo pkg search tkinter
+sudo pkg install py38-tkinter-3.8.13_6
